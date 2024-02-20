@@ -1,0 +1,98 @@
+body,a,span,p,button{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.left-area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.titleStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleStyle > h1 {
+font-family: "Smoooch sans",sans-serif;
+font-size: 100px;
+margin: 0;
+padding: 0;
+}
+.titleStyle > span{
+    font-family: "Poppins",sans-serif;
+    margin-top: -25;
+}
+.description{
+    font-size: small;
+    font-weight: 200;
+    color: rgb(101, 99, 99);
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-section > button{
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form-section > button:hover{
+    background-color: rgb(225, 115, 68);
+}
+.input_type{
+    background-color: #f2f2f2;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+.input_type:focus{
+    outline: none;
+    border: 1px solid #1c1c1c;
+}
+.login-with{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.login-with > span{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.login-with > button{
+     background-color: transparent;
+     border-radius: 15px;
+     padding: 15px;
+     border: 1px dashed #1c1c1c;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+.login-with >button> img{
+    height: 30px;
+}
+.login-with > button:hover{
+    background-color: #f2f2f2;
+    border: 1px solid #1c1c1c;
+}
+#teemo_png{
+    height: 115px;
+    position: absolute;
+    bottom: 25%;
+    left: -05px;
+}
